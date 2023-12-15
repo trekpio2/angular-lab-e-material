@@ -1,41 +1,12 @@
-header {
-  background-color: var(--secondary-color);
-  color: var(--accent-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 1em;
-  margin-bottom: 1em;
-}
-
-header nav {
-  display: flex;
-  gap: 1em;
-}
-
-header a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bolder;
-}
-
-header a.active {
-  text-decoration: underline;
-}
-
-header a:hover {
-  background-color: var(--primary-color);
-  opacity: 0.5;
-}
-
 .router-outlet {
   min-height: 70vh;
 }
 
+.spacer {
+  flex: 1 1 auto;
+}
+
 footer {
-  background-color: var(--primary-color);
-  color: var(--accent-color);
   padding: 0.5em 1em;
   font-size: 20px;
 }

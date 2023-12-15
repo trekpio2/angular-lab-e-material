@@ -5,6 +5,8 @@
 }
 
 .tasks .task {
+  background-color: #C9C9C9;
+  border: 2px solid black;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 10px;
@@ -34,6 +36,7 @@
 .tasks .task .deadline span {
   padding: 5px;
   background-color: indianred;
+  color: white;
   border-radius: 8px;
   font-size: 0.8em;
 }
@@ -43,6 +46,10 @@
   text-align: right;
 }
 
-.tasks mat-card {
-  margin-bottom: 10px;
+button{
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 5px;
+  min-width: 50px;
+  margin-left: 5px;
 }

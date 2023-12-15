@@ -1,3 +1,12 @@
+body {
+  background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49343");
+
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
 :root {
   --primary-color: #333C87;
   --secondary-color: #018249;
@@ -5,9 +14,14 @@
   --shadow-color: #E9E9E9;
 }
 
+button.primary {
+  padding: 10px;
+  border: solid 1px var(--primary-color);
+  background: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+}
+
 * {
   box-sizing: border-box;
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

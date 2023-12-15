@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Hello World",
       "deadline": "1900-01-01",
-      "completed": false,
+      "completed": true,
       "archived": false
     },
     {
@@ -13,6 +13,12 @@
       "deadline": "2000-01-01",
       "completed": false,
       "archived": false
+    },
+    {
+      "title": "arch",
+      "completed": true,
+      "archived": true,
+      "id": 3
     }
   ]
 }
